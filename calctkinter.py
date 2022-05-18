@@ -1,6 +1,7 @@
 from tkinter import *
 root = Tk()
 root.title("Simple Calculator")
+root.resizable(False,False)
 e=Entry(root,borderwidth=2,width=45)
 e.grid(row=0,column=0,columnspan=3,padx=10,pady=10)
 def click_button(number):
